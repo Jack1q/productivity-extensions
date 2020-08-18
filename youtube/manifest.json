@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Stay Focused!",
+  "version": "0.0.1",
+  "description": "Removes distractions on social media websites so that you can do what you have to and leave.",
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://www.youtube.com/*", "https://twitter.com/*"]
+  }]
+}
